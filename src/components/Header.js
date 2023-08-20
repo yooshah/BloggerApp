@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export default function BlogListHeader() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, display: "flex", flexWrap: "wrap" }}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
